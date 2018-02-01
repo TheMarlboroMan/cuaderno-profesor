@@ -1,0 +1,31 @@
+#evaluacion {}
+#evaluacion h2 {display: block; font-size: 2em; text-align: center;}
+
+#evaluacion ul.otras {overflow: hidden; margin-top: 10px;}
+#evaluacion ul.otras li {float: left; margin-right: 6px; line-height: 1.8em;}
+
+#evaluacion #tabla_final {width: 100%; margin-top: 10px;}
+#evaluacion #tabla_final thead th {padding: 4px; border: 1px solid #000;}
+#evaluacion #tabla_final tbody tr:nth-child(odd) {background: #c0c0c0;}
+#evaluacion #tabla_final tbody tr:hover {background: #EFDBA4;}
+#evaluacion #tabla_final {border-collapse: collapse; border: 1px solid #000;}
+#evaluacion #tabla_final tr td, table#tabla_datos tr th {border: 1px solid #000; padding: 4px;}
+#evaluacion #tabla_final tr th {background-color: #6297AF; color: #fff;}
+
+#evaluacion #tabla_final tr td.observaciones {height: 1.8em; font-size: 0.8em;}
+
+#evaluacion #tabla_final tr td.rojo {background-color: #891812; color: #fff; font-weight: bold; text-align: center;}
+
+#evaluacion #tabla_final tr td .input_nota {width: 3em; font-family: monospace; border: 1px solid #000; padding: 2px;}
+#evaluacion #tabla_final tr td .input_nota.nuevo {background-color: #B4D2F0;}
+#evaluacion #tabla_final tr td .btn_positivo {border: 1px solid #000; background-color: #799F6D; font-weight: bold; color: #fff;}
+#evaluacion #tabla_final tr td .btn_negativo {border: 1px solid #000; background-color: #AF6D76; font-weight: bold; color: #fff;}
+
+form#form_comportamiento {position: fixed; width: 600px; height: 200px; margin-left: -300px; margin-top: -100px; left: 50%; top: 50%; border: 1px solid #000; box-shadow: 4px 4px 4px #333; border-radius: 10px; padding: 0px;}
+form#form_comportamiento.positivo {background-color: #C1DBD3;}
+form#form_comportamiento.negativo {background-color: #E8BAC8;}
+form#form_comportamiento p {margin-bottom: 20px; padding: 20px; border-bottom: 1px dashed #fff; background-color: #6297af; border-radius: 10px 10px 0px 0px; color: #fff; font-weight: bold;}
+form#form_comportamiento textarea {width: 100%; height: 50px;}
+form#form_comportamiento input[type="button"] {margin-left: 20px; border: 1px solid #000; padding: 2px 4px;}
+/*form#form_comportamiento input {border: 1px solid #000; padding: 2px 4px;}*/
+

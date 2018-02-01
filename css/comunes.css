@@ -1,0 +1,39 @@
+/* Reset...*/
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: "";content: none;}
+
+/*General...*/
+
+html {font-family: "Helvetica", sans-serif;}
+.oculto {display: none;}
+
+/*Estructura...*/
+
+body {border-bottom: 10px solid #COLOR_PRINCIPAL#; background: #COLOR_PRINCIPAL#;}
+
+#pagina {margin: 40px auto 0px auto; background: #COLOR_FONDO#;}
+
+#cabecera {background: #COLOR_PRINCIPAL#; height: 40px; border-bottom: 4px solid #000; color: #fff; font-weight: bold; text-align: left; position: fixed; width: 100%; z-index: 100; top: 0px;}
+#cabecera h1 {float: left; padding: 10px;}
+#cabecera ul.herramientas {float: right; border-left: 1px solid #ccc; height: 20px; padding: 10px;}
+#cabecera ul.herramientas li:first-child {border-left: none;}
+#cabecera ul.herramientas li {float: left; border-left: 1px solid #ccc; padding: 0px 10px; cursor: pointer;}
+#cabecera ul.herramientas li.activa {text-shadow: 0px 0px 8px #fff;}
+#cabecera ul.herramientas li:hover {text-shadow: 0px 0px 2px #999;}
+#cabecera ul.herramientas:empty {display: none;}
+
+#cabecera div.bienvenida:empty {display: none;}
+#cabecera div.bienvenida {float: right; width: 300px; border-left: 1px solid #ccc; height: 20px; padding: 10px;}
+#cabecera div.bienvenida .logout {float: right;}
+#cabecera div.bienvenida .logout a {padding: 2px 6px; background-color: #888; color: #fff; font-weight: bold; text-decoration: none; border-radius: 4px;}
+#cabecera div.bienvenida .logout a:hover {text-decoration: none;}
+
+#pagina #cuerpo {width: 998px; padding: 10px 20px; margin: 0px auto;}
+
+#pie {background: #COLOR_PRINCIPAL#; padding: 6px; border-top: 4px solid #000; color: #fff; font-weight: bold; text-align: right;}
+
+#plantillas {display: none;}

@@ -1,0 +1,22 @@
+RewriteEngine On
+
+RewriteRule ^login.html$ index.php?modomw=login [QSA]
+RewriteRule ^logout.html$ index.php?modomw=logout&mwlogica=logout [QSA]
+RewriteRule ^portal.html$ index.php?modomw=curso [QSA]
+
+RewriteRule ^grupos/([\w]+)/([\d]+)/gestionar.html$ index.php?modomw=grupo&id_grupo=$2 [QSA]
+RewriteRule ^grupos/([\w]+)/([\d]+)/([\d]+)/tabla.html$ index.php?modomw=tabla&id_grupo=$2&trimestre=$3 [QSA]
+RewriteRule ^grupos/([\w]+)/([\d]+)/final/tabla.html$ index.php?modomw=final&id_grupo=$2 [QSA]
+RewriteRule ^grupos/([\w]+)/([\d]+)/([\d]+)/([\d]+)/tabla_parcial.html$ index.php?modomw=tabla&id_grupo=$2&trimestre=$3&id_evaluable=$4 [QSA]
+RewriteRule ^grupos/([\w]+)/([\d]+)/([\d]+)/([\d]+)/([\d]+)/tabla_evaluable.html$ index.php?modomw=tabla&id_grupo=$2&trimestre=$3&id_evaluable=$4&id_item_evaluable=$5 [QSA]
+
+
+RewriteRule ^guardar_datos_alumno_final.html$ index.php?modomw=final&mwlogica=guardar_nota_final [QSA]
+RewriteRule ^guardar_datos_alumno.html$ index.php?modomw=tabla&mwlogica=guardar_datos [QSA]
+RewriteRule ^guardar_datos_evaluacion.html$ index.php?modomw=tabla&mwlogica=guardar_datos_evaluacion [QSA]
+RewriteRule ^guardar_comportamiento_alumno.html$ index.php?modomw=tabla&mwlogica=guardar_comportamiento [QSA]
+
+RewriteRule ^obtener_css/(.*)$ index.php?modomw=css&hojas=$1 [L]
+RewriteRule ^obtener_js/(.*)$ index.php?modomw=js&scripts=$1 [L]
+
+RewriteRule ^[\w]+/([\d]+)/horario.html$ index.php?modomw=horario&id_curso=$1 [QSA]

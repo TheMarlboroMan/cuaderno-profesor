@@ -1,0 +1,37 @@
+.dedo {cursor: pointer; background-color: #CC8888; padding: 3px; display: inline;}
+
+
+.iu_tabs {position: relative;}
+.iu_tabs ul.iu_tabs_encabezados {overflow: hidden; position: relative; top: 1px;}
+.iu_tabs ul.iu_tabs_encabezados li {position:relative; top: 0px; z-index: 10; border: 1px solid #000; padding: 10px; float: left; margin-right: 6px; border-radius: 10px 10px 0px 0px; cursor: pointer; background: #fff;}
+.iu_tabs ul.iu_tabs_encabezados li.tabs_ui_tab_activa {border-bottom: none !important; top: 4px !important;}
+
+.iu_tabs .iu_tabs_cuerpos {border: 1px solid #000; z-index: 5; background: #fff; padding: 10px;}
+
+.iu_grupo_form {border: 1px solid #ccc; padding: 10px; background: #f0f0f0;}
+input[type="button"].iu_btn_form {cursor: pointer; background: #COLOR_BTN_NUEVO#; display: inline; padding: 6px 10px; color: #fff; border-radius: 10px; border: 1px solid #fff; clear: both;}
+.iu_form {margin-top: 16px; border: 1px dotted #000; padding: 10px;}
+.iu_form dl {overflow: hidden; text-align; center; margin: 4px; }
+.iu_form dt {width: 30%; float: left; text-align: right;}
+.iu_form dd {width: 55%; margin-left: 10px; float: left; text-align: left;}
+.iu_form dl input {border: 1px solid #000; padding: 2px 4px;}
+.iu_form dl input.error {background-color: #BF9B9B;}
+.iu_form dl textarea {border: 1px solid #000; padding: 2px 4px;}
+.iu_form dl input[type="submit"] {background-color: #COLOR_PRINCIPAL#; padding: 4px 10px; color: #fff; font-weight: bold;}
+
+.iu_aviso {color: #900; font-style: italic; border: 1px dashed #900; background: #fff; padding: 6px; }
+
+a.iu_enlace_acceso {padding: 2px 6px; background-color: #COLOR_BTN_GENERICO#; color: #fff; font-weight: bold; text-decoration: none; border-radius: 4px; margin-right; 4px; font-size: 0.85em;}
+a.iu_enlace_acceso:hover {text-decoration: none;}
+
+a.iu_enlace_volver {padding: 2px 6px; background-color: #COLOR_BTN_GENERICO#; color: #fff; font-weight: bold; text-decoration: none; border-radius: 4px; margin-right; 4px;}
+a.iu_enlace_volver:hover {text-decoration: none;}
+
+input[type="button"] {padding: 2px 6px; background-color: #COLOR_BTN_GENERICO#; color: #fff; font-weight: bold; text-decoration: none; border-radius: 4px; margin-left; 4px; border: none; font-size: 0.85em;}
+input[type="button"].iu_btn_eliminar {background-color: #COLOR_BTN_ELIMINAR#;}
+input[type="button"].iu_btn_generico {}
+input[type="button"].iu_btn_volver {}
+
+.iu_bloqueador {position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 600; background-color: #88a; opacity: 0.5;}
+
+.iu_input_defecto {border: 1px solid #000; padding: 2px 4px;}

@@ -1,0 +1,50 @@
+#horario {}
+#horario h2 {display: block; font-size: 2em; text-align: center; margin-bottom: 10px;}
+#horario .no_config {width: 400px; margin: 40px auto; border: 3px solid #COLOR_PRINCIPAL#; border-radius: 10px; background-color: #COLOR_FONDO#; text-align: center; padding: 10px;}
+
+#contenedor_form_franja {position: fixed; width: 400px; height: 200px; top: 50%; left: 50%; margin-left: -200px; margin-top: -100px; z-index: 999; border-radius: 10px;} 
+#contenedor_form_franja #form_franja {background: #fff; margin-top: 0px; border-radius: 0px 0px 10px 10px;}
+#contenedor_form_franja p {color: #fff; font-weight: bold; padding: 20px; border-bottom: 1px dashed #fff; background-color: #6297af; border-radius: 10px 10px 0px 0px;}
+
+#selector_contenido {position: fixed; width: 600px; height: 400px; top: 50%; left: 50%; margin-left: -300px; margin-top: -200px; z-index: 999; border-radius: 10px; background: #fff;}
+#selector_contenido p {color: #fff; font-weight: bold; padding: 20px; border-bottom: 1px dashed #fff; background-color: #6297af; border-radius: 10px 10px 0px 0px;}
+#selector_contenido .columnas {overflow: hidden; height: 300px; padding: 10px;}
+#selector_contenido .columnas .col1 {float: left; width: 45%;}
+#selector_contenido .columnas .col2 {float: right; width: 45%;}
+
+#selector_contenido .columnas h3 {padding: 10px; display: block; text-align: center;}
+#selector_contenido .columnas ul {height: 200px; overflow-y: scroll; background: #ccc;}
+#selector_contenido .columnas ul li {cursor: pointer; margin: 4px; padding: 2px; /*background-color: #fff;*/}
+#selector_contenido .columnas ul li:hover {background-color: #6297af; color: #fff;}
+
+#selector_contenido > input {margin-left: 10px; cursor: pointer;}
+
+table#tabla_horario {width: 100%; margin-top: 10px; border-collapse: collapse; border: 1px solid #000;}
+table#tabla_horario tbody tr:nth-child(odd) {background: #c0c0c0;}
+
+table#tabla_horario tr td, 
+table#tabla_horario tr th {border: 1px solid #000; padding: 4px; text-align: center;}
+
+table#tabla_horario.configurable tr td {cursor: pointer;}
+
+table#tabla_horario tr td.contenido.comunes_01 {background-color: #000; color: #fff;}
+table#tabla_horario tr td.contenido.comunes_02 {background-color: #000; color: #fff;}
+table#tabla_horario tr td.contenido.comunes_03 {background-color: #000; color: #fff;}
+table#tabla_horario tr td.contenido.comunes_04 {background-color: #000; color: #fff;}
+
+table#tabla_horario.visitable tr td.contenido.color_grupo_0,
+table#tabla_horario.visitable tr td.contenido.color_grupo_1,
+table#tabla_horario.visitable tr td.contenido.color_grupo_2,
+table#tabla_horario.visitable tr td.contenido.color_grupo_3,
+table#tabla_horario.visitable tr td.contenido.color_grupo_4,
+table#tabla_horario.visitable tr td.contenido.color_grupo_5,
+table#tabla_horario.visitable tr td.contenido.color_grupo_6,
+table#tabla_horario.visitable tr td.contenido.color_grupo_7,
+table#tabla_horario.visitable tr td.contenido.color_grupo_8 {cursor: pointer;}
+
+
+
+
+table#tabla_horario tr td.franja {background-color: #33ba88; font-weight: bold;}
+
+table#tabla_horario tr th {background-color: #6297AF; color: #fff;}

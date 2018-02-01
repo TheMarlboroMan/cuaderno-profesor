@@ -1,0 +1,59 @@
+
+#grupo {margin-bottom: 20px;}
+
+#grupo h2 {display: block; font-size: 2em; text-align: center;}
+
+/*Enlaces fichas*/
+#grupo > ul {overflow: hidden; margin: 10px;} 
+#grupo > ul li {float: left; margin-right: 10px; line-height: 1.8em;}
+#grupo > ul li a {}
+
+#grupo .columnas {overflow: hidden; margin-top: 26px;}
+#grupo .columnas .col1 {width: 450px; float: left; }
+#grupo .columnas .col1 h3 {margin: 10px; display: block;}
+
+/*Alumnos...*/
+
+#grupo .columnas .col1 ol {list-style: decimal; margin-top: 10px;}
+#grupo .columnas .col1 ol li {margin-left: 30px; line-height: 1.8em; background: #f0f0f0; padding: 2px 6px; margin-bottom: 4px;}
+#grupo .columnas .col1 ol li:nth-child(even) {background: #fff;}
+#grupo .columnas .col1 ol li div.acciones {text-align: right}
+#grupo .columnas .col1 ol li div.acciones a {line-height: 1.2em; margin: 2px;}
+#grupo .columnas .col1 ol li:hover {background: #D1E4EF;}
+#grupo .columnas .col1 ol li:hover div {display: block;}
+
+
+#grupo .columnas .col2 {width: 500px; float: right;}
+#grupo .columnas .col2 h3 {margin: 10px; display: block;}
+
+#grupo .columnas .col2 .trimestre {}
+
+#grupo .columnas .col2 .trimestre a.enlace_evaluacion {padding: 2px 6px; background-color: #6297AF; color: #fff; font-weight: bold; text-decoration: none; border-radius: 4px; display: block; text-align: center; margin-bottom: 6px;}
+#grupo .columnas .col2 .trimestre a.enlace_evaluacion:hover {text-decoration: none;}
+
+/*Evaluables*/
+#grupo .columnas .col2 .trimestre > ul {margin-top: 10px; border-top: 1px dashed #ccc; padding-top: 10px;}
+#grupo .columnas .col2 .trimestre > ul li {line-height: 1.8em; background: #f0f0f0; padding: 2px 6px; margin-bottom: 4px;}
+#grupo .columnas .col2 .trimestre > ul li:nth-child(even) {background: #fff;}
+#grupo .columnas .col2 .trimestre > ul li.comportamiento {background-color: #COLOR_PRINCIPAL#; color: #fff; font-weight: bold; padding: 10px;}
+#grupo .columnas .col2 .trimestre > ul li span {}
+#grupo .columnas .col2 .trimestre > ul li > div.acciones {text-align: right;}
+#grupo .columnas .col2 .trimestre > ul li > div.acciones a {line-height: 1.2em; margin: 2px;}
+#grupo .columnas .col2 .trimestre > b {margin-top: 10px; text-align: right; display: block;}
+
+#grupo .columnas .col2 .trimestre > b.total.rojo span {color: red;}
+#grupo .columnas .col2 .trimestre > b.total.verde span {color: green;}
+
+/*Items evaluables*/
+#grupo .columnas .col2 .trimestre > ul li > ol {margin-left: 20px; padding: 10px; background: #ccc;}
+#grupo .columnas .col2 .trimestre > ul li > ol:empty {display: none;}
+#grupo .columnas .col2 .trimestre > ul li > ol li {margin-bottom: 4px;}
+#grupo .columnas .col2 .trimestre > ul li > ol li:nth-child(even) {}
+
+#grupo .columnas .col2 .trimestre .form_nuevo_item_evaluable {margin-top: 10px;}
+
+#informe_alumno {width: 700px; height: 400px; position: fixed; left: 50%; top: 50%; margin-top: -200px; margin-left: -300px; background-color: #fff; border: 1px solid #000; border-radius: 10px; z-index: 999;}
+#informe_alumno p {color: #fff; font-weight: bold; padding: 20px; border-radius: 10px 10px 0px 0px; border-bottom: 1px dashed #fff; background-color: #6297af;}
+#informe_alumno pre {margin: 10px; width: 670px; height: 160px; background: #888; color: #fff; overflow-y: scroll; padding: 6px;}
+#informe_alumno textarea {margin: 10px; width: 680px; height: 60px; border: 1px solid #888;}
+#informe_alumno input {margin-left: 10px;}

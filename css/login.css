@@ -1,0 +1,6 @@
+.login {width: 700px; height: 220px; margin: 100px auto; background: #ddd; padding: 10px; border: 1px solid; border-radius: 10px;}
+.login h1 {text-align: center; padding-bottom: 10px; margin: 20px; border-bottom: 1px dotted #000;}
+.login form {}
+.login form p {line-height: 3em;}
+.login form input {border: 1px solid #000;}
+.login form input[type="submit"] {background: #COLOR_PRINCIPAL#; color: #fff; font-weight: bold; padding: 4px 10px;}

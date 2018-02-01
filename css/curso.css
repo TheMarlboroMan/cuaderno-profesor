@@ -1,0 +1,26 @@
+#cursos {}
+
+#cursos .form_nuevo_curso {margin-bottom: 20px;}
+
+#cursos > ul {}
+#cursos > ul span {font-weight: bold; margin-right: 10px;}		
+#cursos > ul li {background-color: #f0f0f0; padding: 6px; margin-bottom: 10px; line-height: 1.8em;}
+
+/*Fix lista...*/
+#cursos > ul li div {overflow: hidden;}
+#cursos > ul li div > span {float: left;}
+#cursos > ul li div > a {}
+
+
+#cursos > ul li > ul {margin-left: 50px; margin-top: 10px;}
+#cursos > ul li > ul li {overflow: hidden;}
+#cursos > ul li > ul li > span {/*float: left;*/}
+/*#cursos > ul li > ul li > a {float: left; margin-left: 6px;}*/
+
+#cursos > ul li div ul li form.grupo_form {}
+#cursos > ul li div ul li form.grupo_form h3 {}
+#cursos > ul li div ul li form.grupo_form p {}
+#cursos > ul li div ul li form.grupo_form p input[type="text"] {}
+#cursos > ul li div ul li form.grupo_form p input[type="submit"] {}
+
+div.caja_color {width: 20px; height: 20px; border-radius: 5px; margin-right: 6px; float: left;}
